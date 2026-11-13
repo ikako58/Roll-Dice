@@ -19,7 +19,7 @@ class _DiceRollerState extends State<DiceRoller> {
       diceRollNum = randomizer.nextInt(6) + 1;
     });
   }
-c
+
   @override
   Widget build(context) {
     return Column(
